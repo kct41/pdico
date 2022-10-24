@@ -1,0 +1,38 @@
+body {
+    background-image: url(../img/background-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: -100px;
+    font-family: AppleSDGothicNeoM00;
+}
+
+a {
+    color: inherit;
+}
+
+h1 {
+    font-size: 30px;
+}
+
+h2{
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 15px;
+}
+
+h6{
+
+}
+p {
+    font-size: 15px;
+}

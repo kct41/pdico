@@ -1,0 +1,92 @@
+.project__card {
+    flex: 0.31;
+    height: 270px;
+    border-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.project__card:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.3);
+    transform: translate(-5px, -5px);
+    transition: 0.3s;
+}
+
+.project__card .card__content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project__card .card__content .card__flexbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__card .card__content .card__flexbox .card__left > p {
+    color: #444;
+}
+
+.project__card .card__content .card__flexbox .card__right {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.card__progress {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.card__progress > h5 {
+    flex: 0.1;
+    color: #444;
+}
+
+.card__bottom {
+    width: 100%;
+}
+
+.card__bottom .card__user {
+    transform: translate(0, 10px);
+    display: flex;
+}
+
+.card__bottom .card__user .user {
+    width: 32px;
+    height: 32px;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 19px;
+    color: #444;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.card__progress .progress__bar {
+    flex: 0.85;
+}
+
+.card__progress > h5{
+    transform:translate(0,4px);
+}
+.bar__bg {
+    height: 18px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    transform: translate(0, 20px);
+}
+
+.bar__progress {
+    height: 12px;
+    max-width: calc(100% - 8px);
+    width: 10%;
+    border-radius: 10px;
+    transform: translate(4px, 5.3px);
+    background: linear-gradient(90deg, #FFBDE1 7.21%, #95D8FE 100%);
+}

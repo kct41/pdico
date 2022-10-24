@@ -1,0 +1,128 @@
+.project__box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project__box .flex__box {
+    width: 100%;
+    height: calc(100% - 90px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__box .flex__box .card__area {
+    flex: 0.25;
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.project__box .flex__box .card__area::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}
+
+.project__box .flex__box .project__detail__area {
+    flex: 0.72;
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 30px;
+    padding: 40px 55px;
+    box-sizing: border-box;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project__box .flex__box .project__detail__area > h2{
+    height: 30px; width: 100%; border:1px solid black;
+}
+
+.project__box .flex__box .card__area .project__card {
+    flex: 0.31;
+    height: 175px;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 25px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-bottom: 25px;
+    transition: 0.3s;
+}
+
+.project__box .flex__box .card__area .project__card:last-child {
+    margin-bottom: 0px;
+}
+
+.project__box .flex__box .card__area .project__card:hover {
+    background-color: rgba(252, 226, 226, 1);
+    box-shadow: none;
+    transform: translate(0, 0);
+    transition: 0.3s;
+}
+
+.project__box .flex__box .card__area .project__card .card__content .card__flexbox .card__left > h3 {
+    font-size: 17px;
+}
+
+.project__box .flex__box .project__detail__area .container{
+    display:flex;
+    justify-content: space-between;
+    border:1px solid blue;
+    width: 100%;
+    height: calc(100% - 60px);
+}
+
+.project__box .flex__box .project__detail__area .container .member__box{
+    flex: 0.25;
+    border:1px solid red;
+}
+
+.project__box .flex__box .project__detail__area .container .detail__box{
+    flex: 0.7;
+    border:1px solid red;
+    display:flex;
+}
+
+
+
+
+.box{
+    width: 14.28%;
+    height: 100%;
+    display:flex;flex-direction: column;
+    justify-content: space-between;
+}
+
+.box .date{
+    display:flex;
+    justify-content: center;
+    flex:0.05;
+}
+
+.box .date > h5{
+    margin-right: 5px;
+}
+
+.box .flex__box{
+    display:flex;
+    flex:0.95;
+}
+
+.box .flex__box > div {
+    flex:0.5;
+}
+
+.box .flex__box > div:nth-child(2n-1){
+    border-right: 1px solid #888;
+}
+
+.box .flex__box.today > div:first-child{
+    border-right: 1px solid blue;
+}
+
+.box .flex__box > div.weekend{
+    background-color:rgba(255,255,255,0.6);
+}

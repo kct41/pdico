@@ -1,0 +1,14 @@
+.board__box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.board__box .flex__box {
+    width: 100%;
+    height: calc(100% - 90px);
+    display:flex;
+    justify-content: space-between;
+}

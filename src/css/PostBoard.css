@@ -1,0 +1,32 @@
+.post__board {
+    height: 100%;
+    flex: 0.31;
+}
+
+.post__board .board__title {
+    display: flex;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 30px;
+}
+
+.post__board .board__title > span {
+    display: block;
+    width: 5px;
+    height: 23px;
+    background-color: mediumpurple;
+    margin-right: 5px;
+}
+
+.post__board .post__area {
+    width: 100%;
+    height: calc(100% - 55px);
+    border: 1px solid blue;
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.post__board .post__area::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
+}

@@ -1,0 +1,26 @@
+.schedule {
+    margin-bottom: 18px;
+}
+
+.schedule > h4 {
+    margin-bottom: 10px;
+}
+
+.schedule .schedule__detail {
+    padding-left: 6px;
+    display: flex;
+}
+
+.schedule .schedule__detail > h5 {
+    margin-bottom: 3px;
+}
+
+.schedule .schedule__detail > span {
+    display: block;
+    width: 7px;
+    height: 7px;
+    border-radius: 100px;
+    background-color: red;
+    margin-top: 5px;
+    margin-right: 10px;
+}

@@ -1,0 +1,9 @@
+.home{
+    display:flex;
+}
+.content{
+    width: calc(100vw - 210px);
+    height: calc(100vh - 60px);
+    margin-top:30px;
+    margin-left:70px;
+}

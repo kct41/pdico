@@ -1,0 +1,190 @@
+.chat-upperbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 60px;
+    width: 19.5%;
+    padding: 1% 0 0 0;
+}
+
+.chat_title{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.chat-plus{
+    margin: 3px 0 0 0;
+}
+
+.magnifyingGlass{
+    margin: 5% 0 0 0;
+    padding: 0 5% 0 0;
+    color: rgb(133, 133, 133);
+}
+
+.chat-plus .svg-inline--fa{
+    width: 30px;
+    height: 30px;
+}
+
+.chat{
+    flex-direction: row;
+    display: flex;
+    height: 93%;
+}
+
+.chatLeft{
+    width: 20%;
+    margin: 0 20px 0 0;
+}
+
+.chatList_search_container{
+    display: flex;
+    flex-direction: row;
+    height: 6%;
+    width: 100%;
+    border: 1px solid rgba(242, 242, 242, 1);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.6);
+    margin: 0px 0px 5% 0px;
+}
+
+.chatList_search{
+    width: 100%;
+    padding: 0 0 0 10px;
+    border: none;
+    background: none;
+
+}
+
+.chatList_container{
+    width: 100%;
+    height: 92%;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+}
+
+.chatMiddle{
+    width: 50%;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    margin: 0 20px 0 0;
+}
+
+.chatting_upper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 8%;
+    padding: 4% 0 0 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.chatUser{
+    width: 50%;
+}
+
+.chatIcon_container{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.iconBox{
+    width: 50px;
+    height: 50px;
+}
+
+.chatIcon_container .svg-inline--fa{
+    width: 20px;
+    height: 20px;
+    color: rgb(133, 133, 133);
+}
+
+.chatting_middle{
+    height: 73%;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.chatting_bottom{
+    display: flex;
+    flex-direction: row;
+    height: 19%;
+    width: 100%;
+}
+
+.messageBox{
+    width: 80%;
+    resize: none;
+    margin: 0 0 0 10px;
+    padding: 32px 0 0 0;
+    border: none;
+    background: none;
+}
+
+.chatting-plus{
+    padding: 30px 0 0 30px;
+    color: rgb(133, 133, 133);
+}
+
+.sendMessage{
+    width: 55px;
+    height: 55px;
+    background: linear-gradient(180deg, #8BCEFF 0%, rgba(117, 99, 232, 0.732552) 46.88%, rgba(199, 81, 187, 0.35) 100%);
+    border-radius: 60px;
+    border: none;
+    margin: 6% 0 0 0;
+}
+
+
+.sendMessage .svg-inline--fa{
+    padding: 10px 0 0 9px;
+    width: 30px;
+    height: 30px;
+    color: white;
+
+}
+
+.chatRight{
+    width: 30%;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+}
+
+.address_upper{
+    height: 60px;
+    width: 100%;
+    padding: 10px 0 0 20px;
+}
+
+.address_title{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.address_search_container{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 90%;
+    margin: 0 20px 20px 20px;
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(242, 242, 242, 0.5);
+    border-radius: 15px;
+}
+
+.address_search{
+    height: 50px;
+    width: 90%;
+    padding: 0 0 0 10px;
+    border: none;
+    background: none;
+}
+
+.addressList{
+    height: 80%;
+    width: 90%;
+    margin: 0 5% 5% 5%;
+    border: 1px solid blue;
+}
