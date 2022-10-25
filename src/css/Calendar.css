@@ -8,7 +8,6 @@
 
 
 .calendar .flex__box {
-    border: 1px solid black;
     width: 100%;
     height: calc(100% - 90px);
     display: flex;

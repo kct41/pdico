@@ -1,10 +1,13 @@
 import '../src/css/Calendar.css';
 import {Calendar} from 'react-calendar';
 import 'react-calendar/dist/Calendar.css';
-import moment from 'moment';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheck} from "@fortawesome/free-solid-svg-icons";
 import TopBar from "./component/TopBar";
+import FullCalendar from '@fullcalendar/react' // must go before plugins
+import dayGridPlugin from '@fullcalendar/daygrid';
+import timeGridPlugin from '@fullcalendar/timegrid';
+import React from "react"; // a plugin!
 
 function myCalendar(){
     return(
@@ -12,11 +15,7 @@ function myCalendar(){
             <TopBar title="달력"/>
             <div className="flex__box">
                 <div className="menu">
-                    <Calendar
-                        // className={classes.calendar}
-                        // onChange={this.onDateChange}
-                        // value={this.state.date}
-                    />
+                    <Calendar   />
                     <div className="category__box">
                         <h2>카테고리</h2>
                         <div className="category">
@@ -33,7 +32,17 @@ function myCalendar(){
                         </div>
                     </div>
                 </div>
-                <div className="calendar__area"></div>
+                <div className="calendar__area">
+                    <FullCalendar
+                        headerToolbar={{
+                            left: 'prev,next today',
+                            center: 'title',
+                            right: 'dayGridMonth,timeGridWeek,timeGridDay'
+                        }}
+                        plugins={[ dayGridPlugin, timeGridPlugin, ]}
+                        initialView="dayGridMonth"
+                    />
+                </div>
             </div>
         </div>
     )
