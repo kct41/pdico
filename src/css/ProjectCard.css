@@ -1,9 +1,9 @@
 .project__card {
     flex: 0.31;
-    height: 270px;
+    height: 28vh;
     border-radius: 40px;
     background-color: rgba(255, 255, 255, 0.6);
-    padding: 30px;
+    padding: 3vh 4vh;
     cursor: pointer;
     transition: 0.3s;
 }

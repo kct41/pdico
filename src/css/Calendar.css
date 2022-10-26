@@ -9,7 +9,7 @@
 
 .calendar .flex__box {
     width: 100%;
-    height: calc(100% - 90px);
+    height: 85vh;
     display: flex;
 
     justify-content: space-between;
@@ -20,26 +20,22 @@
     border:1px solid green;
 }
 
-.calendar .flex__box .menu .sm__calendar{
-    width: 100%; height: 300px;
-    border:1px solid blue;
-}
-
 .calendar .flex__box .calendar__area{
     flex: 0.8;
     background-color: rgba(255,255,255,0.6);
     border-radius: 30px;
+    height:85vh;
 }
 
 .calendar .flex__box .menu .category__box{
-    margin-top: 40px;
+    margin-top: 4vh;
 }
 .calendar .flex__box .menu .category__box > h2{
-    margin-bottom : 13px;
+    margin-bottom : 2vh;
 }
 .calendar .flex__box .menu .category__box .category{
     display: flex;
-    margin-bottom: 8px;
+    margin-bottom: 1vh;
 }
 
 .calendar .flex__box .menu .category__box .category:last-child{
@@ -53,7 +49,7 @@
     border-radius: 5px;
     margin-right: 10px;
     color:#fff;
-    font-size: 13px;
+    font-size: 1.3rem;
     display:flex;
     align-items: center;
     justify-content: center;
@@ -74,5 +70,3 @@
 .calendar .flex__box .menu .category__box .category > span.room{
     background-color: #009EFF;
 }
-
-.calendar .flex__box .menu .category__box .category{}

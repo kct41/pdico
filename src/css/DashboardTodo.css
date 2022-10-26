@@ -9,8 +9,12 @@
 
 .dashboard__todo .todo__section {
     width: 100%;
-    height: calc(100% - 55px);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    height: calc(100% - 6vh);
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none; /* IE and Edge */
+}
+
+.dashboard__todo .todo__section::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera*/
 }
