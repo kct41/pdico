@@ -8,6 +8,7 @@ import FullCalendar from '@fullcalendar/react' // must go before plugins
 import dayGridPlugin from '@fullcalendar/daygrid';
 import timeGridPlugin from '@fullcalendar/timegrid';
 import React from "react"; // a plugin!
+import ko from '@fullcalendar/core/locales/ko';
 
 function myCalendar(){
     return(
@@ -34,6 +35,7 @@ function myCalendar(){
                 </div>
                 <div className="calendar__area">
                     <FullCalendar
+                        locale={ko}
                         headerToolbar={{
                             left: 'prev,next today',
                             center: 'title',

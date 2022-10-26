@@ -1,0 +1,13 @@
+diff --git a/node_modules/@fullcalendar/react/src/main.tsx b/node_modules/@fullcalendar/react/src/main.tsx
+index 01ee5b8..28042fa 100644
+--- a/node_modules/@fullcalendar/react/src/main.tsx
++++ b/node_modules/@fullcalendar/react/src/main.tsx
+@@ -18,7 +18,7 @@ export default class FullCalendar extends React.Component<CalendarOptions> {
+         {(data) => (
+           <CalendarRoot options={data.calendarOptions} theme={data.theme} emitter={data.emitter}>
+             {(classNames, height, isHeightAuto, forPrint) => (
+-              <div className={classNames.join(' ')} style={{ height }}>
++              <div className={classNames.join(' ')}>
+                 <CalendarContent
+                   isHeightAuto={isHeightAuto}
+                   forPrint={forPrint}
