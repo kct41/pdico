@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: self-end;
-    height: 60px;
+    height: 6vh;
     width: 100%;
 }
 
@@ -16,14 +16,14 @@
 
 .top__bar > div > .search__bar {
     background-color: rgba(255, 255, 255, 0.6);
-    width: 330px;
+    width: 15vw;
     border: none;
     border-radius: 15px;
-    text-indent: 20px;
+    text-indent: 3rem;
 }
 
 .top__bar > div > .bell {
-    margin-left: 30px;
+    margin-left: 1vw;
     padding: 5px;
-    font-size: 24px;
+    font-size: 2.4rem;
 }

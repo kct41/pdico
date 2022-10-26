@@ -1,20 +1,21 @@
 .sidebar__body {
-    margin-left: 30px;
-    margin-top: 30px;
-    width: 80px;
-    height: 97.5%;
+    margin-left: 2vw;
+    margin-top: 3vh;
+    width: 4vw;
+    height: 94vh;
     background-color: rgba(255,255,255, 0.6);
     border-radius: 20px;
-    padding: 40px 0;
+    padding: 3vh 0;
     text-align: center;
 
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
 }
 
 .sidebar__body .user{
-    margin-left: 17.5px;
+
     width: 45px; height: 45px;
     background-color: rgba(255,255,255,0.8);
     font-size: 24px;
@@ -39,7 +40,6 @@
 }
 
 .sidebar__body .exit{
-    font-size:24px;
     color:#fff;
     cursor: pointer;
     transition:0.3s;
@@ -54,15 +54,19 @@
     opacity: 100%;
 }
 
+.sidebar__body .exit,
 .sidebar__menu > li {
-    width: 100%;
-    height: 80px;
+    font-size:2.4rem;
+}
+
+.sidebar__menu > li {
+    width: 4vw;
+    height: 4vw;
     text-align: center;
     display:flex;
     align-items: center;
     justify-content: center;
     color:white;
-    font-size: 24px;
     transition:0.5s;
 }
 

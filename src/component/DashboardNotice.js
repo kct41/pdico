@@ -11,23 +11,23 @@ function DashboardNotice() {
                     <FontAwesomeIcon icon={faPlus}/><p>더보기</p>
                 </div>
                 <div className="notice__list">
-                    <div className="notice__title">10월 패밀리데이 시행 안내</div>
+                    <div className="notice__title"><p>10월 패밀리데이 시행 안내</p></div>
                     <div className="notice__date"><p>2022.10.17</p></div>
                 </div>
                 <div className="notice__list">
-                    <div className="notice__title">10월 패밀리데이 시행 안내</div>
+                    <div className="notice__title"><p>10월 패밀리데이 시행 안내</p></div>
                     <div className="notice__date"><p>2022.10.17</p></div>
                 </div>
                 <div className="notice__list">
-                    <div className="notice__title">10월 패밀리데이 시행 안내</div>
+                    <div className="notice__title"><p>10월 패밀리데이 시행 안내</p></div>
                     <div className="notice__date"><p>2022.10.17</p></div>
                 </div>
                 <div className="notice__list">
-                    <div className="notice__title">10월 패밀리데이 시행 안내</div>
+                    <div className="notice__title"><p>10월 패밀리데이 시행 안내</p></div>
                     <div className="notice__date"><p>2022.10.17</p></div>
                 </div>
                 <div className="notice__list">
-                    <div className="notice__title">10월 패밀리데이 시행 안내</div>
+                    <div className="notice__title"><p>10월 패밀리데이 시행 안내</p></div>
                     <div className="notice__date"><p>2022.10.17</p></div>
                 </div>
             </div>

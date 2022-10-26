@@ -8,7 +8,8 @@
 
 .board__box .flex__box {
     width: 100%;
-    height: calc(100% - 90px);
+    height: 85vh;
     display:flex;
     justify-content: space-between;
+    border:1px solid red;
 }
