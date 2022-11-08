@@ -13,7 +13,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 3vw;
+    padding: 0 2vw;
     height: 5vh;
 }
 
@@ -26,7 +26,7 @@
 }
 
 .notice__bar .notice__latest > .icon {
-    font-size: 2.4rem;
+    font-size: 1.5rem;
     margin-right: 2rem;
     flex: 0.05;
 }
@@ -45,7 +45,7 @@
 }
 
 .notice__bar .notice > p {
-    font-size: 1.6rem;
+    font-size: 1rem;
 }
 
 .notice__bar .notice__approval {

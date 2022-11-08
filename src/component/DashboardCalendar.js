@@ -1,9 +1,11 @@
 import '../css/DashboardCalendar.css';
+import {Calendar} from "react-calendar";
+import React from "react";
 
 function DashboardCalendar(){
     return(
         <div className="dashboard__calendar">
-            <h2>캘린더 자리</h2>
+            <Calendar/>
         </div>
     )
 }

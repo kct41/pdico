@@ -19,11 +19,11 @@
     width: 15vw;
     border: none;
     border-radius: 15px;
-    text-indent: 3rem;
+    text-indent: 2rem;
 }
 
 .top__bar > div > .bell {
     margin-left: 1vw;
     padding: 5px;
-    font-size: 2.4rem;
+    font-size: 1.5rem;
 }

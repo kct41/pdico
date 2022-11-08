@@ -1,22 +1,64 @@
 import '../css/Sidebar.css';
-import {Link} from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCalendarDays, faHome, faComments, faRectangleList, faBarsProgress, faUser, faSignOut } from "@fortawesome/free-solid-svg-icons";
+import {Link, NavLink} from "react-router-dom";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {
+    faCalendarDays,
+    faHome,
+    faComments,
+    faRectangleList,
+    faBarsProgress,
+    faUser,
+    faSignOut
+} from "@fortawesome/free-solid-svg-icons";
 
 function Sidebar() {
-    return(
+    const liStyle = {
+        width: '4vw',
+        height: '4vw',
+        textAlign: 'center',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        transition: '0.5s',
+        fontSize: '1.5rem',
+    }
+    return (
         <div className="sidebar">
             <div className="sidebar__body">
-                <div className="user online"><FontAwesomeIcon icon={faUser} />
-                <span></span></div>
+                <div className="user online"><FontAwesomeIcon icon={faUser}/>
+                    <span></span></div>
                 <ul className="sidebar__menu">
-                    <li className="on"><Link to="/"><FontAwesomeIcon className="i" icon={faHome} /></Link></li>
-                    <li><Link to="/calendar"><FontAwesomeIcon icon={faCalendarDays} /></Link></li>
-                    <li><Link to="/chat"><FontAwesomeIcon icon={faComments} /></Link></li>
-                    <li><Link to="/board"><FontAwesomeIcon icon={faRectangleList} /></Link></li>
-                    <li><Link to="/project"><FontAwesomeIcon icon={faBarsProgress} /></Link></li>
+                    <li style={liStyle}>
+                        <NavLink to="/home" className={({isActive}) => (isActive ? " on" : "")}>
+                            <FontAwesomeIcon icon={faHome}/>
+                        </NavLink>
+                    </li>
+                    <li style={liStyle}>
+                        <NavLink to="/calendar" className={({isActive}) => (isActive ? " on" : "")}>
+                            <FontAwesomeIcon icon={faCalendarDays}/>
+                        </NavLink>
+                    </li>
+
+                    <li style={liStyle}>
+                        <NavLink to="/chat" className={({isActive}) => (isActive ? " on" : "")}>
+                            <FontAwesomeIcon icon={faComments}/>
+                        </NavLink>
+                    </li>
+
+                    <li style={liStyle}>
+                        <NavLink to="/board" className={({isActive}) => (isActive ? " on" : "")}>
+                            <FontAwesomeIcon icon={faRectangleList}/>
+                        </NavLink>
+                    </li>
+
+                    <li style={liStyle}>
+                        <NavLink to="/project" className={({isActive}) => (isActive ? " on" : "")}>
+                            <FontAwesomeIcon icon={faBarsProgress}/>
+                        </NavLink>
+                    </li>
+
                 </ul>
-                <div className="exit"><FontAwesomeIcon icon={faSignOut} /></div>
+                <div className="exit"><FontAwesomeIcon icon={faSignOut}/></div>
             </div>
         </div>
     )

@@ -1,4 +1,4 @@
-html{font-size:10px;}
+html{font-size:15px;}
 
 body {
     background-image: url(../img/background-01.jpg);
@@ -13,27 +13,27 @@ a {
 }
 
 h1 {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
 }
 
 h2{
-    font-size: 2.2rem;
+    font-size: 1.4rem;
 }
 
 h3 {
-    font-size: 1.9rem;
+    font-size: 1.2rem;
 }
 
 h4{
-    font-size: 1.7rem;
+    font-size: 1.1rem;
 }
 
 h5 {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 p {
-    font-size: 1.5rem;
+    font-size: 1rem;
 }
 
 @media (max-width:1024px) {
