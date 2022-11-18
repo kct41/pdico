@@ -39,6 +39,14 @@
     background-color: #64FA30;
 }
 
+.sidebar__body .user.offline > span{
+    background-color: #8E8E8E;
+}
+
+.sidebar__body .user.online > span{
+    background-color: #3081FA;
+}
+
 .sidebar__body .exit{
     color:#fff;
     cursor: pointer;
