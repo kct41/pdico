@@ -7,6 +7,7 @@ import Chat from "./Chat";
 import Board from "./Board";
 import Project from "./Project";
 import Login from "./Login";
+import Administrator from "./Administrator";
 
 function Home() {
     return (
@@ -20,6 +21,7 @@ function Home() {
                     <Route path="/board" element={<Board/>}/>
                     <Route path="/project" element={<Project/>}/>
                     <Route path="/login" element={<Login/>}/>
+                    <Route path="/administrator" element={<Administrator/>}/>
                 </Routes>
             </div>
         </div>

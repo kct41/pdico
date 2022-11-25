@@ -8,7 +8,7 @@ function DashboardNotice() {
             <h2>공지사항</h2>
             <div className="notice__section">
                 <div className="more">
-                    <FontAwesomeIcon icon={faPlus}/><p>더보기</p>
+                    <a href="/board"><FontAwesomeIcon icon={faPlus}/><p>더보기</p></a>
                 </div>
                 <div className="notice__list">
                     <div className="notice__title"><p>10월 패밀리데이 시행 안내</p></div>

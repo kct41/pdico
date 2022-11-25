@@ -25,12 +25,18 @@
     justify-content: right;
     font-size: 14px;
     margin-bottom:15px;
+    text-decoration:none;
+    cursor: pointer;
 }
 
-.dashboard__notice .notice__section .more > p{
-    margin-left: 5px;
-    margin-top: -2px;
-    cursor: pointer;
+.dashboard__notice .notice__section .more > a{
+    text-decoration:none;
+    display:flex;
+    align-items: center;
+}
+
+.dashboard__notice .notice__section .more > a > p{
+    margin-left:5px;
 }
 
 .dashboard__notice .notice__section .notice__list{

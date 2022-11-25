@@ -2,18 +2,14 @@ import '../src/css/Chat.css';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPaperPlane, faSquarePlus } from "@fortawesome/free-regular-svg-icons";
 import {faEllipsis, faMagnifyingGlass, faPhone, faUser, faVideo} from "@fortawesome/free-solid-svg-icons";
+import TopBar from "./component/TopBar";
 
 
 
 function Chat(){
     return(
         <>
-            <div className="chat-upperbar">
-                <div className="chat_title">채팅</div>
-                <div className="chat-plus">
-                    <FontAwesomeIcon icon={faSquarePlus} />
-                </div>
-            </div>
+            <TopBar title="채팅" btn={true}/>
             <div className="chat">
                 <div className="chatLeft">
                     <div className="chatList_search_container">

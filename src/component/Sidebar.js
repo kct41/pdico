@@ -8,7 +8,8 @@ import {
     faRectangleList,
     faBarsProgress,
     faUser,
-    faSignOut
+    faSignOut,
+    faGear
 } from "@fortawesome/free-solid-svg-icons";
 
 function Sidebar() {
@@ -54,6 +55,12 @@ function Sidebar() {
                     <li style={liStyle}>
                         <NavLink to="/project" className={({isActive}) => (isActive ? " on" : "")}>
                             <FontAwesomeIcon icon={faBarsProgress}/>
+                        </NavLink>
+                    </li>
+
+                    <li style={liStyle}>
+                        <NavLink to="/administrator" className={({isActive}) => (isActive ? " on" : "")}>
+                            <FontAwesomeIcon icon={faGear}/>
                         </NavLink>
                     </li>
 

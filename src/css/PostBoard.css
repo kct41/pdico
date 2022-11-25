@@ -21,7 +21,6 @@
 .post__board .post__area {
     width: 100%;
     height: calc(100% - 55px);
-    border: 1px solid blue;
     overflow: scroll;
     overflow-x: hidden;
     -ms-overflow-style: none; /* IE and Edge */

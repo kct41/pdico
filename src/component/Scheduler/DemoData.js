@@ -16,8 +16,8 @@ const DemoData = {
     events: [
         {
             id: 1,
-            start: "2022-11-09",
-            end: "2022-11-15",
+            start: "2022-11-21",
+            end: "2022-11-22",
             resourceId: "r1",
             title: "프디코 화면 구현",
             bgColor: "#1AC2B1",
@@ -25,19 +25,19 @@ const DemoData = {
         },
         {
             id: 2,
-            start: "2022-11-15",
-            end: "2022-11-18",
-            resourceId: "r1",
+            start: "2022-11-21",
+            end: "2022-11-25",
+            resourceId: "r2",
             title: "프디코 DB설계",
             bgColor: "#1AC2B1",
             showPopover: false
         },
         {
             id: 3,
-            start: "2020-11-12",
-            end: "2020-11-19",
+            start: "2022-11-19",
+            end: "2022-11-23",
             resourceId: "r3",
-            title: "Sports Event",
+            title: "프디코 화면 디자인",
             bgColor: "#1AC2B1",
             showPopover: false
         },

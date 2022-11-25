@@ -6,6 +6,13 @@
     width: 100%;
 }
 
+.top__bar .title__box{
+    width: 300px;
+    justify-content: space-between;
+    align-items: center;
+    font-size:30px;
+}
+
 .top__bar > h1{
     width:19.8%;
 }
