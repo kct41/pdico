@@ -1,14 +1,14 @@
 import '../src/css/Project.css';
 import TopBar from "./component/TopBar";
 import ProjectCard from "./component/ProjectCard";
-import ProjectMember from "./component/ProjectMember";
-import WeekdayBox from "./component/WeekdayBox";
+//import ProjectMember from "./component/ProjectMember";
+//import WeekdayBox from "./component/WeekdayBox";
 import Scheduler from "./component/Scheduler/Scheduler";
 
 function Project(){
     return(
         <div className="project__box">
-            <TopBar title="프로젝트"/>
+            <TopBar title="프로젝트" project/>
             <div className="flex__box">
                 <div className="card__area">
                     <ProjectCard name="PDICO 프로젝트" date="2022년 9월 1일 ~ 2022년 12월 31일"/>

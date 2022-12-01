@@ -1,5 +1,5 @@
 import '../css/Sidebar.css';
-import {Link, NavLink} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {
     faCalendarDays,
@@ -27,7 +27,14 @@ function Sidebar() {
         <div className="sidebar">
             <div className="sidebar__body">
                 <div className="user online"><FontAwesomeIcon icon={faUser}/>
-                    <span></span></div>
+                    <span></span>
+                    {/*<ul className="status">*/}
+                    {/*    <li>온라인</li>*/}
+                    {/*    <li>오프라인</li>*/}
+                    {/*    <li>회의중</li>*/}
+                    {/*    <li>자리비움</li>*/}
+                    {/*</ul>*/}
+                </div>
                 <ul className="sidebar__menu">
                     <li style={liStyle}>
                         <NavLink to="/home" className={({isActive}) => (isActive ? " on" : "")}>

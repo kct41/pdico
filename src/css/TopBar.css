@@ -19,6 +19,7 @@
 
 .top__bar > div {
     display: flex;
+    align-items: center;
 }
 
 .top__bar > div > .search__bar {
@@ -33,4 +34,15 @@
     margin-left: 1vw;
     padding: 5px;
     font-size: 1.5rem;
+}
+
+.top__bar .title__box > button {
+    background-color: transparent;
+    border:none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.top__bar .title__box > button:hover{
+    color:rgba(0,0,0,0.5);
 }

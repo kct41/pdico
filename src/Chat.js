@@ -9,7 +9,7 @@ import TopBar from "./component/TopBar";
 function Chat(){
     return(
         <>
-            <TopBar title="채팅" btn={true}/>
+            <TopBar title="채팅" btn/>
             <div className="chat">
                 <div className="chatLeft">
                     <div className="chatList_search_container">
