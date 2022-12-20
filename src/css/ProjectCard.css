@@ -31,8 +31,12 @@
 }
 
 .project__card .card__content .card__flexbox .card__right {
-    font-size: 24px;
+    font-size: 1.2rem;
     margin-top: 10px;
+}
+
+.project__card .card__content .card__flexbox .card__right:hover {
+    color: mediumpurple;
 }
 
 .card__progress {

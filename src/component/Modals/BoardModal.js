@@ -1,4 +1,6 @@
 import "../../css/Modal.css";
+import  axios from "axios";
+import React, { useState } from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faXmarkCircle} from "@fortawesome/free-regular-svg-icons";
 

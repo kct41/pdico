@@ -27,6 +27,12 @@
     justify-content: center;
 }
 
+.modal .close_btn:focus,
+.modal .submit_btn:focus{
+    border:2px solid black;
+    box-sizing: border-box;
+}
+
 .modal .close_btn .icon{
     font-size:25px;
 }

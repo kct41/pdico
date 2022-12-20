@@ -19,7 +19,6 @@
 
 .top__bar > div {
     display: flex;
-    align-items: center;
 }
 
 .top__bar > div > .search__bar {

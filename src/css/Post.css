@@ -4,6 +4,10 @@
     background-color: rgba(255, 255, 255, 0.6);
     border-radius: 30px;
     padding: 30px 25px 0 25px;
+    margin-bottom:20px;
+}
+.post:last-child{
+    margin-bottom: 0;
 }
 
 .post .post__info{

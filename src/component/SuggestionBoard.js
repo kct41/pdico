@@ -2,14 +2,14 @@ import '../css/PostBoard.css';
 import Post from "./Post";
 import {useEffect, useState} from "react";
 
-function PostBoard({title}) {
+function SuggestionBoard({title}) {
 
     const [posts, setPosts] = useState([]);
 
     function getData(){
-        fetch("http://localhost:3001/posts")
+        fetch("http://localhost:3001/posts3")
             .then((response) => response.json()) //받아온 데이터를 json 형식으로 변환
-            .then((json)=>{setPosts(json)
+            .then((json)=>{setPosts(json);
             });
     }
 
@@ -37,4 +37,4 @@ function PostBoard({title}) {
     )
 }
 
-export default PostBoard;
+export default SuggestionBoard;
