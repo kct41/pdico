@@ -6,6 +6,7 @@ import {faXmarkCircle} from "@fortawesome/free-regular-svg-icons";
 
 const BoardModal = (props) => {
     const {open, close} = props;
+
     return (
         <div className={open ? 'openModal modal' : 'modal'}>
             {open ? (
